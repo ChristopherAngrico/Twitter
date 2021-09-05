@@ -15,7 +15,7 @@ public class AuthenticationController {
     @Autowired
     private AuthenticationService service;
 
-    @PostMapping
+    @PostMapping("/sign-up")
     public void signup(@RequestBody SignUpDTO signUpDTO){
         log.info("Sign up : {}", signUpDTO);
         service.signup(signUpDTO);
