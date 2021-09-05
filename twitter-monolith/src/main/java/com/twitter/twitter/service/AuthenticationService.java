@@ -25,4 +25,8 @@ public class AuthenticationService {
                 .setUsername(signUpDTO.getUsername())
         );
     }
+
+    //ToDo Sign In
+
+    //ToDo Sign out
 }

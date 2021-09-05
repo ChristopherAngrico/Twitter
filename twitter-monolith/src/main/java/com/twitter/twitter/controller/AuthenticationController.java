@@ -19,5 +19,10 @@ public class AuthenticationController {
     public void signup(@RequestBody SignUpDTO signUpDTO){
         log.info("Sign up : {}", signUpDTO);
         service.signup(signUpDTO);
+        //ToDo disini markingnya itu habis sign up langsung ter-signin
     }
+
+    //ToDo Sign In
+
+    //ToDo Sign Out
 }

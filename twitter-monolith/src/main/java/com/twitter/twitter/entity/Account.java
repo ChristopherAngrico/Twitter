@@ -10,4 +10,6 @@ public class Account {
     private Long id;
     private String username;
     private String password;
+
+    //ToDo Sign in / Signout -> butuh marking apakah user nya sedang sign in atau nggak?
 }
