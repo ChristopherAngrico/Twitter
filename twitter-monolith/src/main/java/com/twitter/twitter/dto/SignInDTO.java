@@ -5,8 +5,7 @@ import lombok.experimental.Accessors;
 
 @Data
 @Accessors
-public class SignUpDTO {
+public class SignInDTO {
     private String username;
     private String password;
 }
-

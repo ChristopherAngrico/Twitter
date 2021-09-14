@@ -1,5 +1,6 @@
 package com.twitter.twitter.controller;
 
+import com.twitter.twitter.dto.SignInDTO;
 import com.twitter.twitter.dto.SignUpDTO;
 import com.twitter.twitter.service.AuthenticationService;
 import lombok.extern.slf4j.Slf4j;
@@ -23,6 +24,12 @@ public class AuthenticationController {
     }
 
     //ToDo Sign In
+    @PostMapping("/sign-in")
+    public void signin(@RequestBody SignInDTO signInDTO){
+        log.info("Sign In : {}", signInDTO);
+        service.signin(signInDTO);
+        //ToDo disini markingnya itu habis sign up langsung ter-signin
+    }
 
     //ToDo Sign Out
 }

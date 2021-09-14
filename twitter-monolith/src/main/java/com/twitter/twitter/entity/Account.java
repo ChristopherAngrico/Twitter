@@ -11,5 +11,6 @@ public class Account {
     private String username;
     private String password;
 
-    //ToDo Sign in / Signout -> butuh marking apakah user nya sedang sign in atau nggak?
+    /*ToDo Sign in / Signout -> butuh marking apakah user nya sedang sign in atau nggak? (Sudah)*/
+    private boolean signedIn;
 }

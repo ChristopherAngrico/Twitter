@@ -8,6 +8,7 @@ class TwitterMonolithApplicationTests {
 
     @Test
     void contextLoads() {
+
     }
 
 }
