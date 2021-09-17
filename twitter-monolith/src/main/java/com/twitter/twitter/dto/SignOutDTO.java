@@ -6,6 +6,6 @@ import lombok.experimental.Accessors;
 @Data
 @Accessors
 public class SignOutDTO {
-private String username;
-private String password;
+    private String username;
+    private String password;
 }
