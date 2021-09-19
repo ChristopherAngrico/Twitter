@@ -26,6 +26,7 @@ public class AuthenticationService {
         accountRepository.save(new Account().setPassword(signUpDTO.getPassword())
                 .setUsername(signUpDTO.getUsername())
                 .setSignedIn(true)
+                .setFullName(signUpDTO.getFullName())
         );
 
     }

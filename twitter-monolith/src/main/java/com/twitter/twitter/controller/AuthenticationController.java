@@ -24,7 +24,6 @@ public class AuthenticationController {
     public void signup(@RequestBody SignUpDTO signUpDTO) {
         log.info("Sign Up : {}", signUpDTO);
         service.signup(signUpDTO);
-        //ToDo disini markingnya itu habis sign up langsung ter-signin
     }
 
     //ToDo Sign In
@@ -32,7 +31,6 @@ public class AuthenticationController {
     public void signin(@RequestBody SignInDTO signInDTO) {
         log.info("Sign In : {}", signInDTO);
         service.signin(signInDTO);
-        //ToDo disini markingnya itu habis sign up langsung ter-signin
     }
 
     //ToDo Sign Out
@@ -40,6 +38,5 @@ public class AuthenticationController {
     public void signout(@RequestBody SignOutDTO signOutDTO) {
         log.info("Sign Out : {}", signOutDTO);
         service.signout(signOutDTO);
-        //ToDo disini markingnya itu habis sign up langsung ter-signin
     }
 }
