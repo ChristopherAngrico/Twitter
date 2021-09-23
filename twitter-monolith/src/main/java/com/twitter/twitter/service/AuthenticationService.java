@@ -29,6 +29,7 @@ public class AuthenticationService {
                 .setSignedIn(true)
                 .setFullName(signUpDTO.getFullName())
                 .setDateJoined(new Date())
+                .setPhoneNumber(signUpDTO.getPhoneNumber())
         );
 
     }
