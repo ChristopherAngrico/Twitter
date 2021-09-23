@@ -8,6 +8,7 @@ import com.twitter.twitter.repository.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.Optional;
 
 @Service
@@ -27,6 +28,7 @@ public class AuthenticationService {
                 .setUsername(signUpDTO.getUsername())
                 .setSignedIn(true)
                 .setFullName(signUpDTO.getFullName())
+                .setDateJoined(new Date())
         );
 
     }

@@ -26,6 +26,7 @@ public class ProfileService {
 
         ProfileResponseDTO profileResponseDTO = new ProfileResponseDTO();
         profileResponseDTO.setFullName(account.getFullName());
+        profileResponseDTO.setDateJoined(account.getDateJoined());
         return profileResponseDTO;
     }
 }
