@@ -10,4 +10,6 @@ import java.util.Date;
 public class ProfileResponseDTO {
     private String fullName;
     private Date dateJoined;
+    private String phoneNumber;
+    private String status;
 }

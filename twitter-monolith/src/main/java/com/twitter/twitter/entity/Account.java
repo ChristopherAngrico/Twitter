@@ -12,10 +12,11 @@ public class Account {
     private Long id;
     private String username;
     private String password;
-    private int phoneNumber;
+    private String phoneNumber;
 
     /*Sign in / Signout -> butuh marking apakah user nya sedang sign in atau nggak?*/
     private boolean signedIn;
     private String fullName;
     private Date dateJoined;
+    private String status;
 }

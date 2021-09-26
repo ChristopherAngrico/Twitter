@@ -9,6 +9,6 @@ public class SignUpDTO {
     private String username;
     private String password;
     private String fullName;
-    private int phoneNumber;
+    private String phoneNumber;
 }
 
